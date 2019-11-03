@@ -6,9 +6,13 @@ Generating notes only with LSTM
 
 ### TODO:
 
-1. Write a class/function for data preprocessing (reading midi file, scaler etc)
-2. Training and prediction features must include Velocity, Time, Message Type; and not only note value.
-3. Reuse the generated information when creating a new file.
+1. [ ] Look through `mlp_gan.py`
+2. [ ] Apply `mlp_gan.py` to one of our basic examples in order to understand how they form training dataset 
+3. [ ] Once we finished with 2 => understand if this method is suits us or not
+ 
+4. [ ] Write a class/function for data preprocessing (reading midi file, scaler etc)
+5. [ ] Training and prediction features must include Velocity, Time, Message Type; and not only note value.
+6. [ ] Reuse the generated information when creating a new file.
 
 
 ### Notes
