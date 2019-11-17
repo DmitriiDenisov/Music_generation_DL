@@ -6,13 +6,16 @@ Generating notes only with LSTM
 
 ### TODO:
 
-1. [ ] Look through `mlp_gan.py`
-2. [ ] Apply `mlp_gan.py` to one of our basic examples in order to understand how they form training dataset 
-3. [ ] Once we finished with 2 => understand if this method is suits us or not
+- [ ] Once again remember how data stores in midi
+- [ ] Read theoretical material on topic in order to understand how to predict simultaneously several time series
+- [ ] Examine some simple options on github/
+- [ ] Look through `mlp_gan.py`
+- [ ] Apply `mlp_gan.py` to one of our basic examples in order to understand how they form training dataset 
+- [ ] Once we finished with 2 => understand if this method is suits us or not
  
-4. [ ] Write a class/function for data preprocessing (reading midi file, scaler etc)
-5. [ ] Training and prediction features must include Velocity, Time, Message Type; and not only note value.
-6. [ ] Reuse the generated information when creating a new file.
+- [ ] Write a class/function for data preprocessing (reading midi file, scaler etc)
+- [ ] Training and prediction features must include Velocity, Time, Message Type; and not only note value.
+- [ ] Reuse the generated information when creating a new file.
 
 
 ### Notes
