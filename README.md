@@ -3,6 +3,9 @@
 ### Current status:
 Generating notes only with LSTM
 
+### Вопросы
+1. Почему миди содержит два трека?
+
 ### Ideas:
 - Present Music as a matrix ```M``` : `96 x time` where 96 is the total number of notes. Cell `M_ij` is equal to `1` if not `i` at time `j` is on. Otherwise is it `0`. 
 - Cut this Matrix `M` on blocks `96 x 96`
