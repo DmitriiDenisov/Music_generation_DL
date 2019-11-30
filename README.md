@@ -5,6 +5,7 @@ Generating notes only with LSTM
 
 ### Вопросы
 1. Почему миди содержит два трека?
+2. Как влияет нормализация случайного вектора?
 
 ### Ideas:
 - Present Music as a matrix ```M``` : `96 x time` where 96 is the total number of notes. Cell `M_ij` is equal to `1` if not `i` at time `j` is on. Otherwise is it `0`. 
